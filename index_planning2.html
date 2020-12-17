@@ -1,0 +1,201 @@
+<!DOCTYPE html> <!-- 22061055 박유진-->
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      * {
+      padding: 0; margin: 0;
+      }
+      .clear {
+        clear: both;
+      }
+      li {
+        list-style-type: none;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #7EA0EA;
+        text-decoration: none;
+      }
+      .item {
+        margin: 0 30px 0 30px;
+      }
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: black;
+      }
+
+      #head {
+        background-color: #f6f5ef;
+      }
+      #logo {
+        float: left;
+        margin: 20px 0 20px 610px;
+      }
+      #menu {
+        clear: both;
+        height: 35px;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      #menu li {
+        display: inline;
+      }
+
+      #contents {
+        width: 100%;
+        margin: 0 auto;
+      }
+      #sub_menu {
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+      }
+      #sub_menu h3 {
+        font-size: 18px;
+        color: white;
+        padding: 12px;
+        background-color: black;
+      }
+      #sub_menu li {
+        padding: 10px;
+        font-family: '나눔스퀘어';
+        border-bottom: dotted 1px #cccccc;
+      }
+      #sub_menu a {
+        color: black;
+        text-decoration: none;
+      }
+      #sub_menu a:hover{
+        color: #7EA0EA;
+        text-decoration: none;
+      }
+      #main_contents {
+        width: 1250px;
+        float: right;
+        margin-top: 25px;
+      }
+      #main_contents h3 {
+        font-size: 25px;
+        font-family: '나눔스퀘어';
+        padding-bottom: 4px;
+        padding-left: 10px;
+        border-bottom: solid 1px #cccccc;
+        border-left: solid 5px #7EA0EA;
+      }
+      #main_contents p {
+        font-family: '나눔스퀘어';
+        margin-top: 30px;
+        line-height: 180%;
+      }
+      #main_contents #figure {
+        font-family: '나눔스퀘어';
+        margin-top: 70px;
+        text-align: center;
+        width: 70%;
+        margin-left: 180px;
+      }
+      #main_contents li {
+        padding: 5px;
+      }
+      #main_img {
+        width: 100%;
+        height: 280px;
+        background-image: url('./img/Planning.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+      }
+
+      #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+      }
+      #footer_logo {
+        float: left;
+        margin: 50px 0 0 0;
+      }
+      #address {
+        font-family: '나눔스퀘어';
+        float: right;
+        margin: 55px 0 0 0;
+        color: #cccccc;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='head'>
+      <div id='logo'>
+        <a href="index.html"><img src='./img/logo.jpg' width="300"></a>
+      </div>
+    </div>
+
+    <ul id='menu'>
+      <li class="item"><a href="index_media.html">Media</a></li>
+      <li>|</li>
+      <li class="item"><a href="index_planning.html">Planning</a></li>
+      <li>|</li>
+      <li class="item"><a href="index_design.html">Design</a></li>
+      <li>|</li>
+      <li class="item"><a href="index_3d.html">3D</a></li>
+      <li>|</li>
+      <li class="item"><a href="index_programming.html">Programming</a></li>
+    </ul>
+
+    <section id="main_img">
+    </section>
+
+    <section id='contents'>
+      <nav id='sub_menu'>
+        <h3>About</h3>
+        <ul>
+          <li><a href="index_planning.html">직무수행능력평가1</a></li>
+          <li><a href="index_planning2.html">직무수행능력평가2</a></li>
+        </ul>
+      </nav>
+
+    <section id='contents'>
+      <div id='main_contents'>
+        <h3>직무수행능력평가2</h3>
+        <div id='figure'>
+          <p><h4>'Seoul Museum of Art' Website Renewal Project</h4><br>
+            <p>'Seoul Museum of Art' 웹 사이트를 주제로 선정하여 정보수집, 사용자 정의, 벤치마킹 등 다양한 분석을 통하여 UI화면 설계를<br>
+              하기까지 개인 프로젝트이기에 많은 생각과 고민하기도 하며 다양한 아이디어를 도출해내고 완성한 기말평가 결과물이다.<br><br>
+            2020.12.17</p>
+       </div>
+       <div id='figure'>
+         <video width='100%' autoplay controls loop>
+           <source src='./sample4-video.mp4' type="video/mp4">
+           <source src='./sample4-video.webm' type="video/webm">
+           <source src='./sample4-video.ogg' type="video/ogg">
+         </video>
+      </div>
+      </div>
+    </section>
+    <div class='clear'></div>
+
+    <footer>
+      <div id='footer_box'>
+        <div id='footer_logo'>
+          <a href="index.html"><img src='./img/footer.jpg' width='200'></a>
+        </div>
+        <ul id='address'>
+          <li>Kaywon University of Art & Design</li>
+          <li>Digital Media Design 22061055 박유진</li>
+          <li>COPYRIGHT (C) YU JIN PARK ALL RIGHTS RESERVED.</li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
